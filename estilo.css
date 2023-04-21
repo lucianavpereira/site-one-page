@@ -55,7 +55,7 @@ html {
 }
 
 /* Botão */
-.Botao {
+/* .Botao {
   text-decoration: none;
   color: #fff;
   font-size: 1.3em;
@@ -64,7 +64,7 @@ html {
   padding: 10px 40px;
   border: 2px solid #fff;
   border-radius: 25px;
-}
+} */
 
 /* topo do site */
 #topo {
@@ -77,7 +77,7 @@ html {
 .Card {
   margin-top: 25px;
   width: 338px;
-  height: 520px;
+  height: 480px;
   background-color: #e8e8e8;
   border: 1px solid #a1a1a1;
   border-radius: 25px;
@@ -85,7 +85,7 @@ html {
 }
 
 .Card img {
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 10px;
 }
 
 .Card h3 {
@@ -128,7 +128,7 @@ label {
 }
 
 nav ul {
-  background-color: #343538;
+  background-color: #34353889;
   height: 100vh;
   position: fixed;
   top: 60px;
@@ -152,15 +152,19 @@ nav ul li a {
   color: #fff;
 }
 
+nav ul li a:hover {
+  color: #ed751a;
+}
+
 /* Destaque */
 main {
-  height: 50vh;
-  background: url(imagens/tema2.jpg);
+  height: 60vh;
+  background: url(imagens/fundo-robo1.jpg);
   background-size: cover;
   color: #ed751a;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   text-align: center;
 }
 
@@ -169,9 +173,11 @@ main h1 {
 }
 
 main h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 20px 0px 50px 0px;
 }
+
+/* section #sobre */
 
 #textoSobre {
   color: #000;
@@ -198,7 +204,7 @@ main h2 {
 }
 
 #onepage h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #onepage p {
@@ -211,12 +217,16 @@ main h2 {
   border: 0;
 }
 
+#video p {
+  padding-left: 45px;
+}
+
 .video a {
   text-decoration: none;
-  color: #dc0707;
+  color: #fff;
 }
 .video a:hover {
-  color: #fff;
+  color:#ed751a;
 }
 
 /* Wireframe */
