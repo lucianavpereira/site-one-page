@@ -76,8 +76,8 @@ html {
 /* Cartões */
 .Card {
   margin-top: 25px;
-  width: 338px;
-  height: 480px;
+  width: 301px;
+  height: 500px;
   background-color: #e8e8e8;
   border: 1px solid #a1a1a1;
   border-radius: 25px;
@@ -85,11 +85,12 @@ html {
 }
 
 .Card img {
-  border-radius: 10px;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .Card h3 {
   margin-top: 15px;
+  color: #ed751a;
 }
 
 .Card p {
@@ -197,6 +198,7 @@ main h2 {
 .TopicosSobre img {
   margin: auto;
 }
+
 
 /* One page */
 #onepage {
